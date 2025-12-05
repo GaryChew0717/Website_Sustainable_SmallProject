@@ -1,0 +1,151 @@
+#Introduction
+{
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-image: url(Image/BD5edit3.png);
+    background-size: cover;
+}
+
+#Introduction h1
+{
+    float: left;
+    position: absolute;
+    font-weight: normal;
+    color: #ffcc33;
+    font-size: 4em;
+}
+
+#Introduction .text1
+{
+    top: 30%;
+    left: 6%;
+}
+#Introduction .text2
+{
+    top: 40%;
+    left: 19%;
+    color: white;
+}
+
+#Mainbody
+{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -2%;
+}
+#Information
+{
+    width: 70%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    text-align: center;
+    border: 1px solid;
+    border-color: rgb(162, 171, 174);
+    padding-bottom: 45px;
+}
+
+#Photo img
+{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 8%;    
+}
+#test
+{
+    width: 40%;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+}
+.blend
+{
+    mix-blend-mode: darken;
+}
+
+.two
+{
+    display: none;
+}
+
+#EndCaption
+{
+    margin-bottom: 3%;
+}
+
+#EndCaption p
+{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 2%;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #Introduction
+    {
+    width: 100%;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-image: url(Image/BD3.avif);
+    background-size: cover;
+    }
+
+    #Introduction h1
+    {
+        top: 33%;
+        left: 5%;
+        font-size: 3em;
+    }
+
+    #Introduction .text2
+    {
+        left: 30%;
+    }
+
+    .mask
+    {
+    text-shadow: none;
+    }
+    
+    #Mainbody
+    {
+        flex-direction: column-reverse;
+    }
+
+    #Information
+    {
+        position: relative;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        left: 15%;
+    }
+
+    #Photo
+    {
+        width: 85%;
+        position: relative;
+        left: 1%;
+        margin: -10% 0 10% 0;
+    }
+    
+    .two
+    {
+    display: block;
+    }
+
+    #Endcaption
+    {
+        font-size: 17px;
+        margin: 0 30 0 30;
+    }
+
+    body.dark-mode .blend
+    {
+    mix-blend-mode: lighten;
+    }
+}

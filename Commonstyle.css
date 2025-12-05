@@ -1,0 +1,528 @@
+body
+{
+    background: none;
+    margin: 0;
+    background-color: rgba(219, 213, 213, 0.862);
+}
+
+#mode i
+{
+  font-size: 45px;
+  position: absolute;
+  top: 6.5%;
+  left: 74%;
+}
+
+#body.dark-mode
+{
+  background-color: black;
+  color: white;
+}
+
+#mode
+{
+  display: none;
+}
+
+.menu-icon
+{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-icon span
+{
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: white;
+    position: relative;
+    right: 30px;
+}
+
+.menu
+{
+    display: none;
+    list-style: none;
+}
+
+.menu.active
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    background-color: rgb(169, 116, 52);
+    text-decoration: none;
+}
+
+.menu ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menu a 
+{
+    display: block;
+    color: white;
+    margin: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hamburger-menu 
+{
+    display: none;
+    padding-left: 5px;
+}
+
+nav
+{
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    float:right;
+    background: rgba(0, 0, 0, 0.301);
+    color: white;
+    position: fixed;
+    z-index: 4;
+}
+#LogoTittle
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+#LogoTittle h1
+{
+  font-weight: normal;
+}
+
+#LogoTittle .topic
+{
+    margin: 30px;
+    position: relative;
+    bottom: -35px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.Logo
+{
+  position: absolute;
+  width: 50%;
+  right: 25%;
+  bottom: 15%;
+}
+
+#Navigation
+{
+   font-size: 25px;
+   display: flex;
+   gap: 60px;
+   right: 20px;
+   position: relative;
+}
+
+#Navigation a
+{
+    color: white;
+    text-decoration: none;
+}
+#Navigation a:hover, .active
+{
+  color: rgb(187, 185, 185);
+  text-decoration: underline;
+}
+
+#Introduction
+{
+  text-shadow: #000000 3px 3px 2px;
+}
+
+.mask
+{
+    font-size: 70px;
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    background-image: url(Image/BD5edit3.png);
+    text-align: center;
+    text-shadow: rgb(55, 54, 54) 1px 1px 10px;
+}
+
+#SponserShip
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dcd2d2;
+}
+#SponsershipCaption p
+{
+    margin: 0;
+    font-size: 20px;
+}
+#SponsershipPhoto
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+#SponsershipPhoto img
+{
+    width: 8%;
+    position: relative;
+    
+}
+
+#backgroundEnd
+{
+    background-color: rgb(19, 44, 19);
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+#EndLogoTittle
+{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    transform: scale(0.8);  /* Derek notes */
+}
+#EndLogoTittle h1
+{
+    margin: 40px;
+    position: relative;
+    bottom: -35px;
+}
+
+#footerflex
+{
+    display: flex;
+    gap: 120px;
+}
+#Contact
+{
+    margin-top: 80px;
+    padding: 12px;
+}
+
+#Contact p
+{
+    font-size: 20px;
+}
+
+#Pgalink
+{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#Pgalink a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#Pgalink a:hover, .active
+{
+  color: rgb(187, 185, 185);
+  text-decoration: underline;
+}
+
+#map
+{
+  margin: 20px 0 20px 12%;
+}
+
+
+
+.playfair-display
+{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.akronim-regular
+ {
+  font-family: "Akronim", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+@media screen and (max-width: 768px)
+{
+  .hamburger-menu 
+  {
+    display: block;
+  }
+  .DesktopMenu
+  {
+    position: static;
+  }
+  
+  #Introduction
+  {
+  width: 100%;
+  height: 60%;
+  }
+
+  #Navigation
+  {
+    display: none;
+  }
+
+  #LearnMore a 
+  {
+    display: none;
+  }
+
+  #finaltext
+  {
+    width: 70%;
+  }
+
+  #Pgalink
+  {
+    display: none;
+  }
+
+  #map
+  {
+    display: none;
+  }
+
+  #Sponsership
+  {
+    height: 13%;
+  }
+
+  #SponserShipPhoto img
+  {
+    width: 15%;
+  }
+
+  footer
+  {
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+  }
+
+  #EndLogoTittle
+  {
+    transform: scale(0.6);
+  }
+  #EndLogoTittle h1
+  {
+    margin: 0;
+  }
+
+  #Contact 
+  {
+    margin-top: 0;
+  }
+
+  #Contact p
+  {
+    font-size: 13px;
+  }
+  
+  
+  #mode
+  {
+    display: block;
+  }
+  body.dark-mode 
+  {
+  background-color: #121212;
+  color: white;
+  }
+
+  body.dark-mode .menu.active
+  {
+    background:  rgb(68, 47, 20);
+    color: white;
+  }
+
+  body.dark-mode #SponserShip
+  {
+    background-color: rgb(32, 24, 24);
+  }
+  body.dark-mode footer 
+  {
+    background-color: #0b1b0b;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  #SponserShipPhoto img
+  {
+    width: 18%;
+  }
+
+  footer
+  {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,62 @@
+#first.mask
+{
+    padding-top: 8%;
+}
+#container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    padding: 2% 2% 0 0;
+    align-items: center;
+}
+#container img
+{
+    width: 80%;
+    filter: drop-shadow(1px 10px 4px black);
+    box-sizing: border-box;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+#container img:hover
+{
+    transform: scale(1.2);
+}
+#container p
+{
+    text-align: center;
+    font-size: 17px;
+}
+
+#last p
+{
+    margin: 4% 0 4% 0;
+}
+
+@media screen and (max-width: 768px)
+{
+    #first.mask
+    {
+        padding-top: 22%;
+        font-size: 2em;
+        margin-left: 2.5%;
+    }
+
+    #container
+    {
+    grid-template-columns: repeat(1, 1fr);
+    }
+
+    #container img
+    {
+        width: 60%;
+        margin-left: 15%;
+    }
+
+    #last p
+    {   
+        font-size: 0.7em;
+    }
+
+}
+
