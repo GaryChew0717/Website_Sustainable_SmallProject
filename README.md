@@ -3,7 +3,7 @@ A multi-page website about everyday sustainability, built with HTML, CSS and Jav
 
 ## Live demo
 
-https://garychew0717.github.io/Website_Sustainable_SmallProject/index.html
+https://garychew0717.github.io/Website_Sustainable_SmallProject/
 
 ## Pages
 
